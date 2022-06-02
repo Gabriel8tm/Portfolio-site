@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: #3d3c3c;
+ }
+
+ .header__content {
+     display: flex;
+     width: 80%;
+
+     align-items: center;
+     justify-content: space-between;
+ }
+
+.header__logo {
+    font-size: 20px;
+    color: #bdbdbd;
+}
+
+.header__navigationList {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__listItem {
+    padding: 1.5em;
+    font-size: 20px;
+    color: #bdbdbd;
+    border-radius: 5%;
+    margin: 0.5em;
+}
+
+.header__listItem:hover {
+    color: #4bb7e2;
+    transition: 300ms;
+    background-color:  #272727;
+    cursor: pointer;
+}
